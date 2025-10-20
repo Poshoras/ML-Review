@@ -34,6 +34,7 @@ y_pred = model.predict(X_test)
 
 # 5️⃣ 计算准确率
 print("Accuracy:", accuracy_score(y_test, y_pred))
-```
+
 # 6️⃣ 输出支持向量信息
 print("Number of support vectors:", len(model.support_))
+```
