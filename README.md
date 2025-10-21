@@ -1,4 +1,6 @@
-<img width="572" height="351" alt="截屏2025-10-21 10 02 50" src="https://github.com/user-attachments/assets/88c9c381-3566-4cab-aff7-ab455b7b9025" />![image](https://github.com/user-attachments/assets/074352d5-620b-453a-96c6-490f871fb977)# SVM
+<img width="572" height="351" alt="截屏2025-10-21 10 02 50" src="https://github.com/user-attachments/assets/88c9c381-3566-4cab-aff7-ab455b7b9025" />![image](https://github.com/user-attachments/assets/074352d5-620b-453a-96c6-490f871fb977)
+
+# SVM
 ### 核心思想
 分类算法，核心参数是一个分割线，和两个超平面。
 
