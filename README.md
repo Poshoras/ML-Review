@@ -1,4 +1,4 @@
-# SVM
+<img width="572" height="351" alt="截屏2025-10-21 10 02 50" src="https://github.com/user-attachments/assets/88c9c381-3566-4cab-aff7-ab455b7b9025" />![image](https://github.com/user-attachments/assets/074352d5-620b-453a-96c6-490f871fb977)# SVM
 ### 核心思想
 分类算法，核心参数是一个分割线，和两个超平面。
 
@@ -38,3 +38,24 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 # 6️⃣ 输出支持向量信息
 print("Number of support vectors:", len(model.support_))
 ```
+
+
+
+
+# LDA和PCA
+都是用来降维来解决维度超载的问题。
+
+最大区别：LDA是监督学习，PCA是非监督学习。
+
+
+# Bagging ； Boosting ； AdaBoosting
+这是集成学习的一种思路，并不是一个独立的算法。
+
+Bagging：n次独立抽样，然后投票或者均值得到结果，可以并行计算；
+
+Boosting：n次迭代计算，每运行一次就顺着Loss function梯度下降的方向走一点，不能并行计算。相当于是学习了先前模型的经验，也算是Bagging的一个变种。
+
+AdaBoost：Boosting思想的运用，每一次用基础模型训练以后，对那些被误分类的样本，增加权重，使其在下一次训练时被误分类的惩罚加大，以此矫正模型的性能。
+
+XGBoost：实现原理复杂，但是可以并行计算，特别牛逼，设置参数也是多到离谱。挑几个比较特别的点说一下：1.损失函数采用泰勒展开式得到其一阶，两阶导数，梯度下降的更快更准。2.对树的棵数量和权重均采用正则化系数惩罚，防止其过拟合。
+
